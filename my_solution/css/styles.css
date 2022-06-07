@@ -38,5 +38,28 @@ div.collapse
 }
 #menu-title
 {
-    margin: 0 0 30px 0;
+    margin: 0 0 20px 0;
+
+}
+#main-content p
+{
+    text-align: left;
+}
+.content-box
+{
+    height: 700px;
+    border: 3px solid black;
+    padding: 0px 10px 0px 10px;
+    
+}
+#main-content div.col-xs-12
+{
+    margin: 10px auto 10px auto;
+}
+
+@media (min-width: 992px) {
+    .content-box 
+    {
+        height: 900px;
+    }
 }
